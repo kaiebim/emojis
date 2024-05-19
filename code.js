@@ -4,7 +4,7 @@ window.onload = function(){
 
 function escrevetexto(){
     const container = document.getElementById("grid-container");
-    for(i=0;i<243;i++){
+    for(i=0;i<270;i++){
         const para = document.createElement("a");
         para.setAttribute("onmouseover","yeah(this)")
         para.innerText = "⬜";
