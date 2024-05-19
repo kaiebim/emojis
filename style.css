@@ -11,8 +11,9 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(30,1fr);
-    grid-template-rows: repeat(9,1fr);
-    row-gap: 24px;
+    grid-template-rows: repeat(13,1fr);
+    row-gap: 1px;
+    column-gap: 1px;
 }
 
 .grid-item {
