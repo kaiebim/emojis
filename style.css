@@ -10,10 +10,10 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(30,1fr);
-    grid-template-rows: repeat(13,1fr);
-    row-gap: 1px;
-    column-gap: 1px;
+    grid-template-columns: repeat(25,1fr);
+    grid-template-rows: repeat(12,1fr);
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 .grid-item {
