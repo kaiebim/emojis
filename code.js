@@ -2,9 +2,15 @@ window.onload = function(){
     escrevetexto();
 }
 
+numqrepete = 300
 function escrevetexto(){
+    if (document.documentElement.scrollWidth < 600)
+        numqrepete = 160;
+    else
+        numqrepete = 300;
+
     const container = document.getElementById("grid-container");
-    for(i=0;i<300;i++){
+    for(i=0;i<numqrepete;i++){
         const para = document.createElement("a");
         para.setAttribute("onmouseover","yeah(this)")
         para.innerText = "⬜";

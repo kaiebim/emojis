@@ -20,17 +20,24 @@ body {
     grid-template-rows: repeat(12,1fr);
     row-gap: 10px;
     column-gap: 10px;
-    background-color: blueviolet;
 }
 
 @media (max-width: 600px){
+    body{
+        font-size: 150%;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(12,1fr);
-        grid-template-rows: repeat(25,1fr);
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(20,1fr);
         row-gap: 10px;
         column-gap: 10px;
-        background-color: aqua;
     }
 }
 
