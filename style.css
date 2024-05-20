@@ -34,10 +34,10 @@ body {
     }
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(6,1fr);
-        grid-template-rows: repeat(15,1fr);
-        row-gap: 10px;
-        column-gap: 10px;
+        grid-template-columns: repeat(10,1fr);
+        grid-template-rows: repeat(20,1fr);
+        row-gap: 1px;
+        column-gap: 1px;
     }
 }
 

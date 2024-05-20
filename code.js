@@ -5,7 +5,7 @@ window.onload = function(){
 numqrepete = 300
 function escrevetexto(){
     if (document.documentElement.scrollWidth < 600)
-        numqrepete = 90;
+        numqrepete = 200;
     else
         numqrepete = 300;
 
